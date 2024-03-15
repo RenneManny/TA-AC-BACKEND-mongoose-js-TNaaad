@@ -5,7 +5,8 @@ const userSchema = new Schema({
   name: String,
   email: { type: String, lowerCase: true },
   age: { type: Number, default: 0 },
-});
+  createdAt:Date,
+},{timestamps:true});
 // exporting schema
 module.exports = mongoose.model("data", userSchema);
 // writeCode
