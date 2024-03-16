@@ -15,7 +15,6 @@ app.get("/", (req, res) => {
     
   });
   user1.save();
-
   res.send("<p>Kindly check the database </p>");
 });
 // listen on 3K port
