@@ -10,7 +10,11 @@ app.get("/",(req,res)=>{
         password:"abhikapoo3hubcduibb",
         
     })
-    newUser.save();
+    newUser.save().then((data)=>{
+        console.log("Data saved successfully");
+    }).catch((err)=>{
+        console.log("Error occured",err);
+    });
     res.send("Hello World!");
 })
 app.listen(8080,()=>{
