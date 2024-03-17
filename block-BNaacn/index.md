@@ -7,7 +7,7 @@ Answer below questions
 
 Q. create an express server
 
-- use mongoose to connect to mongodb database
+- use mongoo se to connect to mongodb database
 
 Q. Create an article Schema with fields
 
