@@ -13,7 +13,7 @@ writeCode
 - import it into app.js
 - on POST request on `/users` route create a user
 
-Q. Insert a user into database using Model.create() OR model.save() function
+Q. Insert a user into databa se using Model.create() OR model.save() function
 
 - insert user `{name: '', email: '', sports: ['cricket', 'khokho']}`
 - check into your local mongo database for inserted data
