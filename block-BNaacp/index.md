@@ -8,7 +8,7 @@ writeCode
   - name
   - email
   - sports
-- create user model based on schema
+- create user model based on sche ma
 - export it from model
 - import it into app.js
 - on POST request on `/users` route create a user
