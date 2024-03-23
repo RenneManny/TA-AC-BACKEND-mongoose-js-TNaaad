@@ -6,7 +6,7 @@ Design schemas for a blog application which will have
 - comments(on each article) -> may be multiple
 - user
 
-Each article can have fields :-
+Each  article can have fields :-
 
 - title
 - description
